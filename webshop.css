@@ -1,0 +1,63 @@
+.content {
+    border: 5px solid black;
+    
+}
+table th,table td {
+    border: 2px solid black;
+} 
+/* Color , Style */
+body {
+    background-color: #CEB9ED;
+}
+.return {
+    border-radius: 2px;
+    background-color: #008CBA;
+    font-weight: bold;
+    
+    
+}
+.return:hover{ width: 65px;
+    height: 30px;
+
+}
+.text{
+    border: 4px solid black;
+    border-radius: 15px;
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold ;
+}
+.finish {
+    font-size: 30px;
+    font-style: italic;
+}
+.select {
+background-color:  #008CBA;
+font-variant: small-caps;
+
+}
+.select:hover {
+    width: 65px;
+    height: 30px;
+}
+.note{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+
+/*Position*/
+.heading {
+    text-align: center;
+}
+#home {
+    position: absolute;
+    top:150px;   left: 35%;
+}
+#europe,#africa,#asia {
+    margin: 30px;
+}
+#tltwo,#tlthree,#tlfour {
+    position: relative;
+    left: 32%;
+    
+}
